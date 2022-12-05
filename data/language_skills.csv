@@ -11,5 +11,5 @@ R Markdown,5,literate
 Quarto,5,literate
 Jupyter Notebooks,4.5,literate
 LaTex,4,literate
-flexdashboards,4,literate
-blogdown / bookdown ,3.5,literate
+flexdashboards,3.5,literate
+blogdown / bookdown,3.5,literate

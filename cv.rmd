@@ -87,13 +87,14 @@ CV %>%
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-\newline
-\newline
-\newline
 
-Last updated on `r Sys.Date()`.
+Resume generated in R with [**pagedown**](https://github.com/rstudio/pagedown)
 
-`r emo::ji("pride")` 
+Source code: [github.com/keyes-timothy/cv](https://github.com/keyes-timothy/cv)
+
+Updated `r lubridate::stamp_date("March 1, 1999")(Sys.Date())`.
+
+`r emo::ji("pride")`
 
 
 
@@ -120,7 +121,7 @@ CV %<>%
 ```
 
 
-Employment {data-icon=suitcase}
+Select Employment {data-icon=suitcase}
 --------------------------------------------------------------------------------
 
 ```{r}
