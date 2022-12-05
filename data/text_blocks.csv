@@ -1,0 +1,12 @@
+Id used for finding text block,Contents of text block. Supports markdown formatting.
+loc,text
+intro,"I am a data scientist, bioinformatician, and cancer biologist. In my work, I develop statistical and machine learning algorithms for analyzing high-dimensional single-cell data and predicting clinical outcomes in cancer patients.
+
+I am currently searching for a position at the intersection of biomedical data science, machine learning, and medicine where I can use data to solve problems relevant to human health."
+data_analysis,"Exploratory data analysis <br>
+Data visualization (e.g. ggplot2) <br>
+Data cleaning (e.g. dplyr, pandas) <br>
+Deep Learning (Keras, TF) <br>
+Machine learning (e.g. Factor Analysis, GLMs, SVMs, Tree-based models) <br>"
+teaching_experience_aside,Test
+data_science_writing_aside,Test

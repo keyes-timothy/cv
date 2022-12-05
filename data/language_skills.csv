@@ -1,0 +1,15 @@
+Name of language,Relative numeric level of skill,
+skill,level,type
+R / tidyverse / tidymodels,5,programming
+Python,4.5,programming
+git / GitHub,4,programming
+C++,3,programming
+Bash ,3,programming
+HTML,2,programming
+css,1,programming
+R Markdown,5,literate
+Quarto,5,literate
+Jupyter Notebooks,4.5,literate
+LaTex,4,literate
+flexdashboards,4,literate
+blogdown / bookdown ,3.5,literate
