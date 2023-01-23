@@ -11,6 +11,20 @@ output:
     self_contained: true
 ---
 
+```{css, echo=FALSE}
+.pagedjs_page:not(:first-of-type) {
+  background: white;
+}
+
+.pagedjs_page:not(:first-of-type) {
+  --sidebar-width: 0rem;
+  --sidebar-background-color: #ffffff;
+  --main-width: calc(var(--content-width) - var(--sidebar-width));
+  --decorator-horizontal-margin: 0.2in;
+}
+```
+
+
 ```{r, include=FALSE}
 knitr::opts_chunk$set(
   results='asis', 
@@ -98,6 +112,8 @@ Updated `r lubridate::stamp_date("March 1, 1999")(Sys.Date())`.
 
 
 
+
+
 Main
 ================================================================================
 
@@ -141,5 +157,64 @@ CV %<>%
 ```
 
 
+
+Open-source software {data-icon=laptop}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% 
+  print_section(section_id = "software")
+```
+
+
+<!-- :::aside -->
+
+<!-- `r icons::fontawesome(name = "trophy")` Leadership {#leadership} -->
+<!-- -------------------------------------------------------------------------------- -->
+
+<!-- **Awards** -->
+<!-- - Ruth L. Kirschstein Pre-doctoral National Research Service Award (2019)  -->
+<!-- - Point Foundation Graduate Student Scholarship (2020) -->
+<!-- - rstudio::global(2021) Diversity Scholarship (2021) -->
+<!-- - American Society of Hematology (ASH) Abstract Achievement Award (2022) -->
+
+<!-- **Community-building** -->
+<!-- - Co-founder of the Medical Student Pride Alliance (MSPA), 501(c)(3) -->
+<!-- - Teaching experience: IMM 205 – “Immunology in Health and Disease,” Stanford School of Medicine (2017-2019); "R for Data Science", Stanford School of Medicine (2021) -->
+<!-- ::: -->
+
+
+
+
+
+Leadership {data-icon=trophy}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% 
+  print_section(section_id = "leadership")
+```
+
+
+Grants {data-icon=money-bill}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% 
+  print_section(section_id = "grants")
+```
+
+
+
+References {data-icon=envelope}
+--------------------------------------------------------------------------------
+
+```{r}
+CV %<>% 
+  print_section(section_id = "references")
+```
+
+
+![](fdr.png){#SpiceGraphic}
 
 
