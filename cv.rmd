@@ -215,6 +215,6 @@ CV %<>%
 ```
 
 
-![](fdr.png){#SpiceGraphic}
+<!-- ![](fdr.png){#SpiceGraphic} -->
 
 
